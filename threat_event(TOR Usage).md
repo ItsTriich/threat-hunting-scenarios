@@ -70,3 +70,27 @@ DeviceNetworkEvents
 DeviceFileEvents
 | where FileName contains "shopping-list.txt"
 ```
+
+---
+
+## Created By:
+- **Author Name**: Travis Gray
+- **Author Contact**: https://www.linkedin.com/in/tg12/
+- **Date**: April 7, 2024
+
+## Validated By:
+- **Reviewer Name**: 
+- **Reviewer Contact**: 
+- **Validation Date**: 
+
+---
+
+## Additional Notes:
+- **None**
+
+---
+
+## Revision History:
+| **Version** | **Changes**                   | **Date**         | **Modified By**   |
+|-------------|-------------------------------|------------------|-------------------|
+| 1.0         | Initial draft                  | `April  7, 2024`  | `Travis Gray`   
