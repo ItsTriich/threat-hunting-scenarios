@@ -15,10 +15,7 @@ Management suspects that some employees may be using TOR browsers to bypass netw
 
 ## Steps Taken
 
-1. ...
-2. ...
-3. ...
-
+Searched the <ins>DeviceFileEevnts</ins> table for any ANY file that has the string "tor" in it and discovered what looks like the user "employee" downloaded a tor installer, did something that resulted in many tor-related files being copied up to the desktop and the creation of a file called "tor-shopping-list.txt" on the desktop. These event began
 ---
 
 ## Chronological Events
