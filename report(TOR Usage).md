@@ -15,7 +15,15 @@ Management suspects that some employees may be using TOR browsers to bypass netw
 
 ## Steps Taken
 
-Searched the <ins>DeviceFileEevnts</ins> table for any ANY file that has the string "tor" in it and discovered what looks like the user "employee" downloaded a tor installer, did something that resulted in many tor-related files being copied up to the desktop and the creation of a file called "tor-shopping-list.txt" on the desktop. These event began
+Searched the <ins>DeviceFileEvents</ins> table for any file containing the string 'tor' and discovered that the user 'jsmith' likely downloaded a Tor installer, performed actions that resulted in many Tor-related files being copied to the desktop, and created a file called 'tor-shopping-list.txt' on the desktop. These events began at:
+Query to locate events: 2025-04-04T17:20:36.5048872Z
+
+DeviceFileEvents
+| where DeviceName == "eastus-1111"
+| where InitiatingProcessAccountName == "jsmith"
+| where FileName contains "tor"
+| order by Timestamp desc
+
 ---
 
 ## Chronological Events
