@@ -105,7 +105,7 @@ DeviceFileEvents
 
 ## Created By:
 - **Author Name**: Josh Madakor
-- **Author Contact**: https://www.linkedin.com/in/joshmadakor/
+- **Author Contact**: https://www.linkedin.com/in/tg12
 - **Date**: August 31, 2024
 
 ## Validated By:
@@ -123,4 +123,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `September  6, 2024`  | `Josh Madakor`  
+| 1.0         | Initial draft                  | `September  6, 2024`  | `Travis Gray`  
